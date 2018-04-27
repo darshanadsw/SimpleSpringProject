@@ -50,7 +50,7 @@
 		<property name="nationalId" value="1002"/>
 	</bean>
 	
-	<bean id="employeeSercice" class="com.springframework.chapter2.autowiring.EmployeeServiceImpl">
+	<bean id="employeeService" class="com.springframework.chapter2.autowiring.EmployeeServiceImpl">
 		<property name="employeeDao" ref="employeeDao"/>
 	</bean>
 	
